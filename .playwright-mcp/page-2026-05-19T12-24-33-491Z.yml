@@ -1,6 +1,0 @@
-- main [ref=e2]:
-  - generic [ref=e8]:
-    - heading "404" [level=1] [ref=e9]
-    - heading "Page not found" [level=2] [ref=e10]
-    - link "Go to the front page →" [ref=e11] [cursor=pointer]:
-      - /url: https://www.mwtestconsultancy.co.uk
