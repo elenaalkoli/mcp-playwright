@@ -73,30 +73,28 @@ Target site: https://www.mwtestconsultancy.co.uk/
 - Expected result:
   - `response.status()` is 200.
   - The response body contains `<rss` or `<feed`.
+    - The response body contains `<rss` or `<feed`.
 
-## Test case 10 — Pagination next page opens
+  ## Test case 9 — SEO metadata is present on homepage (low priority)
+  - Steps:
+    1. Open the homepage.
+    2. Inspect the HTML source.
+  - Expected result:
+    - The homepage contains `canonical` link metadata.
+    - The homepage contains `og:title`, `og:description`, and social metadata.
 
-- Steps:
-  1. Open https://www.mwtestconsultancy.co.uk/
-  2. Click or navigate to the next page link (page/2/).
-- Expected result:
-  - The second page loads successfully.
-  - The page title and content indicate page 2 or older posts.
-  - HTTP status is 200.
+  ## Test case 10 — Pagination next page opens
+  - Steps:
+    1. Open https://www.mwtestconsultancy.co.uk/
+    2. Click or navigate to the next page link (page/2/).
+  - Expected result:
+    - The second page loads successfully.
+    - The page title and content indicate page 2 or older posts.
+    - HTTP status is 200.
 
-## Test case 11 — Non-existent page returns 404
-
-- Steps:
-  1. Open https://www.mwtestconsultancy.co.uk/non-existent-page-xyz
-- Expected result:
-  - The page title or content indicates "404" or "Page not found".
-  - HTTP response status is 404.
-
-## Test case 9 — SEO metadata is present on homepage (low priority)
-
-- Steps:
-  1. Open the homepage.
-  2. Inspect the HTML source.
-- Expected result:
-  - The homepage contains `canonical` link metadata.
-  - The homepage contains `og:title`, `og:description`, and social metadata.
+  ## Test case 11 — Non-existent page returns 404
+  - Steps:
+    1. Open https://www.mwtestconsultancy.co.uk/non-existent-page-xyz
+  - Expected result:
+    - The page title or content indicates "404" or "Page not found".
+    - HTTP response status is 404.
