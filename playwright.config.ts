@@ -1,6 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 
-const isCI = typeof process !== 'undefined' && !!process.env?.CI;
+const isCI = !!((globalThis as any).process?.env?.CI);
 
 /**
  * Read environment variables from file.
