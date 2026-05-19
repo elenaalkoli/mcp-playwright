@@ -1,0 +1,72 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "MW Test Consultancy" [ref=e6] [cursor=pointer]:
+        - /url: https://www.mwtestconsultancy.co.uk
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Home" [ref=e10] [cursor=pointer]:
+              - /url: https://www.mwtestconsultancy.co.uk/
+          - listitem [ref=e11]:
+            - link "Books" [ref=e12] [cursor=pointer]:
+              - /url: https://www.mwtestconsultancy.co.uk/books/
+          - listitem [ref=e13]:
+            - link "Tools" [ref=e14] [cursor=pointer]:
+              - /url: https://www.mwtestconsultancy.co.uk/tools/
+      - generic [ref=e15]:
+        - button "Search this site" [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+        - generic [ref=e19]:
+          - link "Sign in" [ref=e20] [cursor=pointer]:
+            - /url: "#/portal/signin"
+          - link "Subscribe" [ref=e21] [cursor=pointer]:
+            - /url: "#/portal/signup"
+  - main [ref=e22]:
+    - article [ref=e23]:
+      - heading "Software Testing Tools" [level=1] [ref=e25]
+      - generic [ref=e26]:
+        - heading "I have created a series of software testing tools, templates and playgrounds that are available for you to use to help support your testing." [level=2] [ref=e27]
+        - paragraph
+        - heading "Automation in Testing Online" [level=3] [ref=e28]
+        - paragraph [ref=e29]: The site https://automationintesting.online is a free to use Web application that contains modern web technology to create a playground for you to practise a range of software testing skills. From UI and API automation to Exploratory and Accessibility testing, Automation in Testing online, offers you a safe space to practise your skills.
+        - paragraph [ref=e30]:
+          - link "Website" [ref=e31] [cursor=pointer]:
+            - /url: https://automationintesting.online/?ref=mwtestconsultancy.co.uk
+          - text: "-"
+          - link "Source Code" [ref=e32] [cursor=pointer]:
+            - /url: https://github.com/mwinteringham/restful-booker-platform?ref=mwtestconsultancy.co.uk
+        - heading "Restful-booker" [level=3] [ref=e33]
+        - paragraph [ref=e34]: The web service deployed to https://restful-booker.herokuapp.com is a demo Web service that you can practise API testing and automation against. The web service contains multiple different method types and actions to practise with, all supported by in depth documentation for the API. It also comes with a series of bugs for you to find. Can you find the teapot?
+        - paragraph [ref=e35]:
+          - link "Website" [ref=e36] [cursor=pointer]:
+            - /url: https://restful-booker.herokuapp.com/?ref=mwtestconsultancy.co.uk
+          - text: "-"
+          - link "Source Code" [ref=e37] [cursor=pointer]:
+            - /url: https://github.com/mwinteringham/restful-booker?ref=mwtestconsultancy.co.uk
+        - heading "Api Framework" [level=3] [ref=e38]
+        - paragraph [ref=e39]: The api-framework repository demonstrates a pattern to develop automated API checks using different languages and libraries to help you get started with automated API checking. There are runnable API checks that work against restful-booker app.
+        - paragraph [ref=e40]:
+          - link "Source code" [ref=e41] [cursor=pointer]:
+            - /url: https://github.com/mwinteringham/api-framework?ref=mwtestconsultancy.co.uk
+  - contentinfo [ref=e42]:
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - generic [ref=e45]: MW Test Consultancy
+        - navigation [ref=e46]:
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - link "Sign up" [ref=e49] [cursor=pointer]:
+                - /url: "#/portal/"
+        - generic [ref=e50]:
+          - text: Powered by
+          - link "Ghost" [ref=e51] [cursor=pointer]:
+            - /url: https://ghost.org/
+      - generic [ref=e52]:
+        - heading "MW Test Consultancy" [level=2] [ref=e53]
+        - paragraph [ref=e54]: Quality, AI, Software Testing and Development Insights
+        - generic [ref=e55]:
+          - textbox "jamie@example.com" [ref=e56]
+          - button "Subscribe" [ref=e57] [cursor=pointer]:
+            - generic [ref=e58]: Subscribe
+          - paragraph

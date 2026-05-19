@@ -1,0 +1,326 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "MW Test Consultancy" [ref=e6] [cursor=pointer]:
+          - /url: https://www.mwtestconsultancy.co.uk
+        - navigation [ref=e7]:
+          - list [ref=e8]:
+            - listitem [ref=e9]:
+              - link "Home" [ref=e10] [cursor=pointer]:
+                - /url: https://www.mwtestconsultancy.co.uk/
+            - listitem [ref=e11]:
+              - link "Books" [ref=e12] [cursor=pointer]:
+                - /url: https://www.mwtestconsultancy.co.uk/books/
+            - listitem [ref=e13]:
+              - link "Tools" [ref=e14] [cursor=pointer]:
+                - /url: https://www.mwtestconsultancy.co.uk/tools/
+        - generic [ref=e15]:
+          - button "Search this site" [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+          - generic [ref=e19]:
+            - link "Sign in" [ref=e20] [cursor=pointer]:
+              - /url: "#/portal/signin"
+            - link "Subscribe" [ref=e21] [cursor=pointer]:
+              - /url: "#/portal/signup"
+    - generic [ref=e23]:
+      - article [ref=e25]:
+        - link "AI When not to use AI Generative AI is a powerful tool—but only if you know when not to use it. In this post, we explore a simple model that helps you decide whether AI will boost your testing or lead you off track. By Mark Winteringham —28 May 2025" [ref=e26] [cursor=pointer]:
+          - /url: /when-not-to-use-ai/
+          - figure [ref=e27]:
+            - img "When not to use AI" [ref=e28]
+          - generic [ref=e29]:
+            - paragraph [ref=e30]: AI
+            - heading "When not to use AI" [level=3] [ref=e31]
+            - paragraph [ref=e32]: Generative AI is a powerful tool—but only if you know when not to use it. In this post, we explore a simple model that helps you decide whether AI will boost your testing or lead you off track.
+            - generic [ref=e33]:
+              - text: By Mark Winteringham
+              - time [ref=e34]: —28 May 2025
+      - generic [ref=e35]:
+        - article [ref=e36]:
+          - link "How Can Gen AI Be Used In Shift Left Activities? By Mark Winteringham —02 Apr 2025" [ref=e37] [cursor=pointer]:
+            - /url: /how-can-gen-ai-be-used-in-shift-left-activities/
+            - figure [ref=e38]:
+              - img "How Can Gen AI Be Used In Shift Left Activities?" [ref=e39]
+            - generic [ref=e40]:
+              - heading "How Can Gen AI Be Used In Shift Left Activities?" [level=3] [ref=e41]
+              - generic [ref=e42]:
+                - text: By Mark Winteringham
+                - time [ref=e43]: —02 Apr 2025
+        - article [ref=e44]:
+          - link "The AI Area of Effect Model By Mark Winteringham —12 Feb 2025" [ref=e45] [cursor=pointer]:
+            - /url: /the-ai-area-of-effect-model/
+            - figure [ref=e46]:
+              - img "The AI Area of Effect Model" [ref=e47]
+            - generic [ref=e48]:
+              - heading "The AI Area of Effect Model" [level=3] [ref=e49]
+              - generic [ref=e50]:
+                - text: By Mark Winteringham
+                - time [ref=e51]: —12 Feb 2025
+        - article [ref=e52]:
+          - link "Announcing Software Testing with Generative AI lock-1 By Mark Winteringham —04 Nov 2024" [ref=e53] [cursor=pointer]:
+            - /url: /announcing-software-testing-with-generative-ai-now-in-print-with-a-special-45-off/
+            - generic [ref=e54]:
+              - heading "Announcing Software Testing with Generative AI" [level=3] [ref=e55]
+              - generic [ref=e56]:
+                - img "lock-1" [ref=e57]
+                - text: By Mark Winteringham
+                - time [ref=e60]: —04 Nov 2024
+      - generic [ref=e62]:
+        - article [ref=e63]:
+          - link "How do I become competitive with Generate AI as a tester? By Mark Winteringham —03 Oct 2024" [ref=e64] [cursor=pointer]:
+            - /url: /how-do-i-become-competitive-with-generate-ai-as-a-tester/
+            - figure [ref=e65]:
+              - img "How do I become competitive with Generate AI as a tester?" [ref=e66]
+            - generic [ref=e67]:
+              - heading "How do I become competitive with Generate AI as a tester?" [level=3] [ref=e68]
+              - generic [ref=e69]:
+                - text: By Mark Winteringham
+                - time [ref=e70]: —03 Oct 2024
+        - article [ref=e71]:
+          - link "How can manual testers take advantage of LLM adoption in testing? By Mark Winteringham —24 Sep 2024" [ref=e72] [cursor=pointer]:
+            - /url: /how-can-manual-testers-take-advantage-of-llm-adoption-in-testing/
+            - figure [ref=e73]:
+              - img "How can manual testers take advantage of LLM adoption in testing?" [ref=e74]
+            - generic [ref=e75]:
+              - heading "How can manual testers take advantage of LLM adoption in testing?" [level=3] [ref=e76]
+              - generic [ref=e77]:
+                - text: By Mark Winteringham
+                - time [ref=e78]: —24 Sep 2024
+        - article [ref=e79]:
+          - link "Analysing the impact of generative AI using the Laws of Media By Mark Winteringham —19 Aug 2024" [ref=e80] [cursor=pointer]:
+            - /url: /analysing-the-impact-of-generative-ai-using-the-laws-of-media/
+            - figure [ref=e81]:
+              - img "Analysing the impact of generative AI using the Laws of Media" [ref=e82]
+            - generic [ref=e83]:
+              - heading "Analysing the impact of generative AI using the Laws of Media" [level=3] [ref=e84]
+              - generic [ref=e85]:
+                - text: By Mark Winteringham
+                - time [ref=e86]: —19 Aug 2024
+        - article [ref=e87]:
+          - link "Quality Engineering, Digital Employees and Job Security By Mark Winteringham —24 Jul 2024" [ref=e88] [cursor=pointer]:
+            - /url: /quality-engineering-digital-employees-and-job-security/
+            - figure [ref=e89]:
+              - img "Quality Engineering, Digital Employees and Job Security" [ref=e90]
+            - generic [ref=e91]:
+              - heading "Quality Engineering, Digital Employees and Job Security" [level=3] [ref=e92]
+              - generic [ref=e93]:
+                - text: By Mark Winteringham
+                - time [ref=e94]: —24 Jul 2024
+        - article [ref=e95]:
+          - link "5 lessons I learnt during an AI hackathon By Mark Winteringham —02 Jul 2024" [ref=e96] [cursor=pointer]:
+            - /url: /5-lessons-i-learnt-during-an-ai-hackathon/
+            - figure [ref=e97]:
+              - img "5 lessons I learnt during an AI hackathon" [ref=e98]
+            - generic [ref=e99]:
+              - heading "5 lessons I learnt during an AI hackathon" [level=3] [ref=e100]
+              - generic [ref=e101]:
+                - text: By Mark Winteringham
+                - time [ref=e102]: —02 Jul 2024
+        - article [ref=e103]:
+          - link "Testing Web APIs “The book\" By Mark Winteringham —31 Jan 2019" [ref=e104] [cursor=pointer]:
+            - /url: /testing-web-apis/
+            - figure [ref=e105]:
+              - img "Testing Web APIs “The book\"" [ref=e106]
+            - generic [ref=e107]:
+              - heading "Testing Web APIs “The book\"" [level=3] [ref=e108]
+              - generic [ref=e109]:
+                - text: By Mark Winteringham
+                - time [ref=e110]: —31 Jan 2019
+    - generic [ref=e112]:
+      - generic [ref=e113]:
+        - heading "MW Test Consultancy" [level=2] [ref=e114]
+        - paragraph [ref=e115]: Quality, AI, Software Testing and Development Insights
+      - generic [ref=e116]:
+        - textbox "jamie@example.com" [ref=e117]
+        - button "Subscribe" [ref=e118] [cursor=pointer]:
+          - generic [ref=e119]: Subscribe
+        - paragraph
+    - generic [ref=e121]:
+      - heading "Latest" [level=2] [ref=e122]
+      - main [ref=e123]:
+        - generic [ref=e124]:
+          - article [ref=e125]:
+            - link "The test automation pyramid is a heuristic not a strategy The Automation pyramid does have value, but not in the way teams typically use it. By Mark Winteringham —31 Jan 2019" [ref=e126] [cursor=pointer]:
+              - /url: /the-test-automation-pyramid-is-a-heuristic-not-a-strategy/
+              - figure [ref=e127]:
+                - img "The test automation pyramid is a heuristic not a strategy" [ref=e128]
+              - generic [ref=e129]:
+                - heading "The test automation pyramid is a heuristic not a strategy" [level=3] [ref=e130]
+                - paragraph [ref=e131]: The Automation pyramid does have value, but not in the way teams typically use it.
+                - generic [ref=e132]:
+                  - text: By Mark Winteringham
+                  - time [ref=e133]: —31 Jan 2019
+          - article [ref=e134]:
+            - link "Debug API checks quickly with proxy tools Learn how to use web proxy tools to diagnose issues with your automated API checks. By Mark Winteringham —28 Sep 2017" [ref=e135] [cursor=pointer]:
+              - /url: /debug-api-check-proxy-tools/
+              - figure [ref=e136]:
+                - img "Debug API checks quickly with proxy tools" [ref=e137]
+              - generic [ref=e138]:
+                - heading "Debug API checks quickly with proxy tools" [level=3] [ref=e139]
+                - paragraph [ref=e140]: Learn how to use web proxy tools to diagnose issues with your automated API checks.
+                - generic [ref=e141]:
+                  - text: By Mark Winteringham
+                  - time [ref=e142]: —28 Sep 2017
+          - article [ref=e143]:
+            - 'link "Code coverage and automated checks: Is 100% coverage enough? Code coverage doesn''t mean risk coverage... By Mark Winteringham —21 Aug 2017" [ref=e144] [cursor=pointer]':
+              - /url: /code-coverage/
+              - figure [ref=e145]:
+                - 'img "Code coverage and automated checks: Is 100% coverage enough?" [ref=e146]'
+              - generic [ref=e147]:
+                - 'heading "Code coverage and automated checks: Is 100% coverage enough?" [level=3] [ref=e148]'
+                - paragraph [ref=e149]: Code coverage doesn't mean risk coverage...
+                - generic [ref=e150]:
+                  - text: By Mark Winteringham
+                  - time [ref=e151]: —21 Aug 2017
+          - article [ref=e152]:
+            - 'link "Restful-Booker: Your one stop API testing demo You get an API testing demo, you get an API testing demo, everybody gets an API testing demo! By Mark Winteringham —18 Aug 2017" [ref=e153] [cursor=pointer]':
+              - /url: /api-testing-demo/
+              - figure [ref=e154]:
+                - 'img "Restful-Booker: Your one stop API testing demo" [ref=e155]'
+              - generic [ref=e156]:
+                - 'heading "Restful-Booker: Your one stop API testing demo" [level=3] [ref=e157]'
+                - paragraph [ref=e158]: You get an API testing demo, you get an API testing demo, everybody gets an API testing demo!
+                - generic [ref=e159]:
+                  - text: By Mark Winteringham
+                  - time [ref=e160]: —18 Aug 2017
+          - article [ref=e161]:
+            - 'link "Unexpected Automation: Create a simple API monitoring tool in 5 steps Build a simple monitor tool for your testing needs in minutes By Mark Winteringham —09 May 2017" [ref=e162] [cursor=pointer]':
+              - /url: /api-monitoring-tool-simple/
+              - figure [ref=e163]:
+                - 'img "Unexpected Automation: Create a simple API monitoring tool in 5 steps" [ref=e164]'
+              - generic [ref=e165]:
+                - 'heading "Unexpected Automation: Create a simple API monitoring tool in 5 steps" [level=3] [ref=e166]'
+                - paragraph [ref=e167]: Build a simple monitor tool for your testing needs in minutes
+                - generic [ref=e168]:
+                  - text: By Mark Winteringham
+                  - time [ref=e169]: —09 May 2017
+          - article [ref=e170]:
+            - link "API test framework templates - A quick start repository Want to get started with a new API checking framework? Look no further... By Mark Winteringham —17 Jan 2017" [ref=e171] [cursor=pointer]:
+              - /url: /api-test-framework/
+              - figure [ref=e172]:
+                - img "API test framework templates - A quick start repository" [ref=e173]
+              - generic [ref=e174]:
+                - heading "API test framework templates - A quick start repository" [level=3] [ref=e175]
+                - paragraph [ref=e176]: Want to get started with a new API checking framework? Look no further...
+                - generic [ref=e177]:
+                  - text: By Mark Winteringham
+                  - time [ref=e178]: —17 Jan 2017
+          - article [ref=e179]:
+            - link "Quick copying HTTP requests from Developer tools to Postman Learn how to copy a request from your browser and get it into Postman, fast. By Mark Winteringham —11 Jan 2017" [ref=e180] [cursor=pointer]:
+              - /url: /copying-http-requests-dev-tools-postman/
+              - figure [ref=e181]:
+                - img "Quick copying HTTP requests from Developer tools to Postman" [ref=e182]
+              - generic [ref=e183]:
+                - heading "Quick copying HTTP requests from Developer tools to Postman" [level=3] [ref=e184]
+                - paragraph [ref=e185]: Learn how to copy a request from your browser and get it into Postman, fast.
+                - generic [ref=e186]:
+                  - text: By Mark Winteringham
+                  - time [ref=e187]: —11 Jan 2017
+          - article [ref=e188]:
+            - 'link "Data driven testing: Moving your Gherkin scenarios to API Don''t drive your data testing via the UI when you can do it via your API By Mark Winteringham —04 Jan 2017" [ref=e189] [cursor=pointer]':
+              - /url: /data-driven-testing-gherkin-api/
+              - figure [ref=e190]:
+                - 'img "Data driven testing: Moving your Gherkin scenarios to API" [ref=e191]'
+              - generic [ref=e192]:
+                - 'heading "Data driven testing: Moving your Gherkin scenarios to API" [level=3] [ref=e193]'
+                - paragraph [ref=e194]: Don't drive your data testing via the UI when you can do it via your API
+                - generic [ref=e195]:
+                  - text: By Mark Winteringham
+                  - time [ref=e196]: —04 Jan 2017
+          - article [ref=e197]:
+            - link "Is BDD testing? Answers and test strategy The conclusion to the is BDD testing series. Where we finally get some answers! By Mark Winteringham —23 Dec 2016" [ref=e198] [cursor=pointer]:
+              - /url: /bdd-testing-part-4/
+              - figure [ref=e199]:
+                - img "Is BDD testing? Answers and test strategy" [ref=e200]
+              - generic [ref=e201]:
+                - heading "Is BDD testing? Answers and test strategy" [level=3] [ref=e202]
+                - paragraph [ref=e203]: The conclusion to the is BDD testing series. Where we finally get some answers!
+                - generic [ref=e204]:
+                  - text: By Mark Winteringham
+                  - time [ref=e205]: —23 Dec 2016
+          - article [ref=e206]:
+            - link "Is BDD testing? Outside in development and testers In this post we explore the use of test automation tools within BDD By Mark Winteringham —13 Dec 2016" [ref=e207] [cursor=pointer]:
+              - /url: /bdd-testing-part-3/
+              - figure [ref=e208]:
+                - img "Is BDD testing? Outside in development and testers" [ref=e209]
+              - generic [ref=e210]:
+                - heading "Is BDD testing? Outside in development and testers" [level=3] [ref=e211]
+                - paragraph [ref=e212]: In this post we explore the use of test automation tools within BDD
+                - generic [ref=e213]:
+                  - text: By Mark Winteringham
+                  - time [ref=e214]: —13 Dec 2016
+          - article [ref=e215]:
+            - link "Is BDD Testing? Collaboration and testers We continue our exploration into the core of BDD which is conversations and collaboration By Mark Winteringham —09 Dec 2016" [ref=e216] [cursor=pointer]:
+              - /url: /bdd-testing-part-2/
+              - figure [ref=e217]:
+                - img "Is BDD Testing? Collaboration and testers" [ref=e218]
+              - generic [ref=e219]:
+                - heading "Is BDD Testing? Collaboration and testers" [level=3] [ref=e220]
+                - paragraph [ref=e221]: We continue our exploration into the core of BDD which is conversations and collaboration
+                - generic [ref=e222]:
+                  - text: By Mark Winteringham
+                  - time [ref=e223]: —09 Dec 2016
+          - article [ref=e224]:
+            - link "Is BDD Testing? A model for testers Is BDD testing? No. Well, some of the activities involve Testers, but it's not REAL testing, right? Look! It's complicated! By Mark Winteringham —04 Dec 2016" [ref=e225] [cursor=pointer]:
+              - /url: /bdd-testing-part-1/
+              - figure [ref=e226]:
+                - img "Is BDD Testing? A model for testers" [ref=e227]
+              - generic [ref=e228]:
+                - heading "Is BDD Testing? A model for testers" [level=3] [ref=e229]
+                - paragraph [ref=e230]: Is BDD testing? No. Well, some of the activities involve Testers, but it's not REAL testing, right? Look! It's complicated!
+                - generic [ref=e231]:
+                  - text: By Mark Winteringham
+                  - time [ref=e232]: —04 Dec 2016
+        - link "See all" [ref=e234] [cursor=pointer]:
+          - /url: https://www.mwtestconsultancy.co.uk/page/2/
+          - text: See all
+          - img [ref=e235]
+    - contentinfo [ref=e237]:
+      - generic [ref=e238]:
+        - generic [ref=e239]:
+          - generic [ref=e240]: MW Test Consultancy
+          - navigation [ref=e241]:
+            - list [ref=e242]:
+              - listitem [ref=e243]:
+                - link "Sign up" [ref=e244] [cursor=pointer]:
+                  - /url: "#/portal/"
+          - generic [ref=e245]:
+            - text: Powered by
+            - link "Ghost" [ref=e246] [cursor=pointer]:
+              - /url: https://ghost.org/
+        - generic [ref=e247]:
+          - heading "MW Test Consultancy" [level=2] [ref=e248]
+          - paragraph [ref=e249]: Quality, AI, Software Testing and Development Insights
+          - generic [ref=e250]:
+            - textbox "jamie@example.com" [ref=e251]
+            - button "Subscribe" [ref=e252] [cursor=pointer]:
+              - generic [ref=e253]: Subscribe
+            - paragraph
+  - generic:
+    - iframe [active] [ref=e255]:
+      - generic [ref=f5e1]:
+        - generic [ref=f5e4]:
+          - img [ref=f5e6] [cursor=pointer]
+          - generic [ref=f5e9]:
+            - banner [ref=f5e10]:
+              - heading "Sign in" [level=1] [ref=f5e11]
+            - generic [ref=f5e12]:
+              - generic [ref=f5e14]:
+                - generic [ref=f5e16]: Email
+                - textbox "Email" [active] [ref=f5e17]:
+                  - /placeholder: jamie@example.com
+              - generic [ref=f5e18]:
+                - button "Continue" [ref=f5e19] [cursor=pointer]
+                - generic [ref=f5e20]:
+                  - generic [ref=f5e21]: Don't have an account?
+                  - button "Sign up" [ref=f5e22] [cursor=pointer]:
+                    - generic [ref=f5e23]: Sign up
+        - link "Powered by Ghost" [ref=f5e25] [cursor=pointer]:
+          - /url: https://ghost.org
+          - img [ref=f5e26]
+          - text: Powered by Ghost
+    - iframe [ref=e256]:
+      - generic [ref=f4e3] [cursor=pointer]:
+        - img [ref=f4e4]
+        - generic [ref=f4e6]: Subscribe

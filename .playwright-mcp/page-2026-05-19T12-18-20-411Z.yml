@@ -1,0 +1,94 @@
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - link "MW Test Consultancy" [ref=e6] [cursor=pointer]:
+        - /url: https://www.mwtestconsultancy.co.uk
+      - navigation [ref=e7]:
+        - list [ref=e8]:
+          - listitem [ref=e9]:
+            - link "Home" [ref=e10] [cursor=pointer]:
+              - /url: https://www.mwtestconsultancy.co.uk/
+          - listitem [ref=e11]:
+            - link "Books" [ref=e12] [cursor=pointer]:
+              - /url: https://www.mwtestconsultancy.co.uk/books/
+          - listitem [ref=e13]:
+            - link "Tools" [ref=e14] [cursor=pointer]:
+              - /url: https://www.mwtestconsultancy.co.uk/tools/
+      - generic [ref=e15]:
+        - button "Search this site" [ref=e16] [cursor=pointer]:
+          - img [ref=e17]
+        - generic [ref=e19]:
+          - link "Sign in" [ref=e20] [cursor=pointer]:
+            - /url: "#/portal/signin"
+          - link "Subscribe" [ref=e21] [cursor=pointer]:
+            - /url: "#/portal/signup"
+  - main [ref=e22]:
+    - article [ref=e23]:
+      - heading "Books" [level=1] [ref=e25]
+      - generic [ref=e26]:
+        - paragraph [ref=e27]:
+          - emphasis [ref=e28]: I am a published author focusing on topics that span quality, strategy, technical testing and the future of testing. Read on to learn more about my published work.
+        - heading "Software Testing with Generative AI" [level=3] [ref=e29]
+        - figure [ref=e30]
+        - paragraph [ref=e31]:
+          - strong [ref=e32]: Speed up your testing and deliver exceptional code quality with the power of AI tools.
+          - text: The more you test, the more you learn about your software.
+          - emphasis [ref=e33]: Software Testing with Generative AI
+          - text: shows you how you can expand, automate, and enhance your testing with Large Language Model (LLM)-based AI. Your team will soon be delivering higher quality tests, all in less time.
+          - text: Inside
+          - emphasis [ref=e34]: AI-Assisted Testing
+          - text: "you’ll learn how to:"
+        - list [ref=e35]:
+          - listitem [ref=e36]: Spot opportunities to improve test quality with AI
+          - listitem [ref=e37]: Construct test automation with the support of AI tools
+          - listitem [ref=e38]: Formulate new ideas during exploratory testing using AI tools
+          - listitem [ref=e39]: Use AI tools to aid the design process of new features
+          - listitem [ref=e40]: Improve the testability of a context with the help of AI tools
+          - listitem [ref=e41]: Maximize your output with prompt engineering
+          - listitem [ref=e42]: Create custom LLMs for your business’s specific needs
+        - paragraph [ref=e43]:
+          - emphasis [ref=e44]: Software Testing with Generative AI
+          - text: is full of hype-free advice for supporting your software testing with AI. Inside, you’ll find strategies from bestselling author Mark Winteringham to generate synthetic testing data, implement automation, and even augment and improve your test design with AI.
+        - link "Get your copy of Software Testing with Generative AI" [ref=e46] [cursor=pointer]:
+          - /url: https://bit.ly/ai-testing?ref=mwtestconsultancy.co.uk
+        - heading "Testing Web APIs" [level=3] [ref=e47]
+        - figure [ref=e48]:
+          - img "https://images.manning.com/264/352/resize/book/8/ae11d3f-075b-4846-8d71-a1a0c11f3a02/Winteringham-HI.png" [ref=e49] [cursor=pointer]
+        - paragraph [ref=e50]:
+          - strong [ref=e51]: Ensure your web APIs are consistent and bug-free by implementing an automated testing process.
+          - text: In
+          - emphasis [ref=e52]: Testing Web APIs
+          - text: "you will:"
+        - list [ref=e53]:
+          - listitem [ref=e54]: Design and implement a web API testing strategy
+          - listitem [ref=e55]: Set up a test automation suite
+          - listitem [ref=e56]: Learn contract testing with Pact
+          - listitem [ref=e57]: Facilitate collaborative discussions to test web API designs
+          - listitem [ref=e58]: Perform exploratory tests
+          - listitem [ref=e59]: Experiment safely in a downloadable API sandbox environment
+        - paragraph [ref=e60]:
+          - emphasis [ref=e61]: Testing Web APIs
+          - text: teaches you to plan and implement the perfect testing strategy for your web APIs. In it, you’ll explore dozens of different testing activities to help you develop a custom testing regime for your projects. This practical book demystifies abstract strategic concepts by applying them to common API testing scenarios, revealing how these complex ideas work in the real world. You’ll learn to take a risk-driven approach to API testing, and build a strategy that goes beyond the basics of code and requirements coverage. Your whole team will soon be involved in ensuring quality!
+        - link "Get your copy of Testing Web APIs" [ref=e63] [cursor=pointer]:
+          - /url: http://bit.ly/testwebapis?ref=mwtestconsultancy.co.uk
+  - contentinfo [ref=e64]:
+    - generic [ref=e65]:
+      - generic [ref=e66]:
+        - generic [ref=e67]: MW Test Consultancy
+        - navigation [ref=e68]:
+          - list [ref=e69]:
+            - listitem [ref=e70]:
+              - link "Sign up" [ref=e71] [cursor=pointer]:
+                - /url: "#/portal/"
+        - generic [ref=e72]:
+          - text: Powered by
+          - link "Ghost" [ref=e73] [cursor=pointer]:
+            - /url: https://ghost.org/
+      - generic [ref=e74]:
+        - heading "MW Test Consultancy" [level=2] [ref=e75]
+        - paragraph [ref=e76]: Quality, AI, Software Testing and Development Insights
+        - generic [ref=e77]:
+          - textbox "jamie@example.com" [ref=e78]
+          - button "Subscribe" [ref=e79] [cursor=pointer]:
+            - generic [ref=e80]: Subscribe
+          - paragraph

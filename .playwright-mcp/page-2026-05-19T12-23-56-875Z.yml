@@ -1,0 +1,159 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link "MW Test Consultancy" [ref=e6] [cursor=pointer]:
+          - /url: https://www.mwtestconsultancy.co.uk
+        - navigation [ref=e7]:
+          - list [ref=e8]:
+            - listitem [ref=e9]:
+              - link "Home" [ref=e10] [cursor=pointer]:
+                - /url: https://www.mwtestconsultancy.co.uk/
+            - listitem [ref=e11]:
+              - link "Books" [ref=e12] [cursor=pointer]:
+                - /url: https://www.mwtestconsultancy.co.uk/books/
+            - listitem [ref=e13]:
+              - link "Tools" [ref=e14] [cursor=pointer]:
+                - /url: https://www.mwtestconsultancy.co.uk/tools/
+        - generic [ref=e15]:
+          - button "Search this site" [ref=e16] [cursor=pointer]:
+            - img [ref=e17]
+          - generic [ref=e19]:
+            - link "Sign in" [ref=e20] [cursor=pointer]:
+              - /url: "#/portal/signin"
+            - link "Subscribe" [ref=e21] [cursor=pointer]:
+              - /url: "#/portal/signup"
+    - main [ref=e22]:
+      - article [ref=e23]:
+        - generic [ref=e24]:
+          - link "AI" [ref=e25] [cursor=pointer]:
+            - /url: https://www.mwtestconsultancy.co.uk/tag/ai/
+          - heading "When not to use AI" [level=1] [ref=e26]
+          - paragraph [ref=e27]: Generative AI is a powerful tool—but only if you know when not to use it. In this post, we explore a simple model that helps you decide whether AI will boost your testing or lead you off track.
+          - generic [ref=e28]:
+            - generic [ref=e29]:
+              - link "Mark Winteringham" [ref=e31] [cursor=pointer]:
+                - /url: /author/mwinteringham/
+                - img "Mark Winteringham" [ref=e32]
+              - generic [ref=e33]:
+                - heading "Mark Winteringham" [level=4] [ref=e34]:
+                  - link "Mark Winteringham" [ref=e35] [cursor=pointer]:
+                    - /url: /author/mwinteringham/
+                - generic [ref=e36]:
+                  - time [ref=e37]: 28 May 2025
+                  - generic [ref=e38]: — 6 min read
+            - link "Share" [ref=e39] [cursor=pointer]:
+              - /url: "#/share"
+          - figure "A large question mark with a maze underneath it" [ref=e40]:
+            - img "When not to use AI" [ref=e41]
+            - generic [ref=e42]: A large question mark with a maze underneath it
+        - generic [ref=e43]:
+          - paragraph [ref=e44]: "Welcome back to another in a series of posts that follow up on questions I’ve been asked during AMA sessions on the subject of Generative AI and testing. This will be my final AMA post for now, so what better question to conclude with than:"
+          - blockquote [ref=e45]: When should we not use AI?
+          - paragraph [ref=e46]: Through the past few posts on Gen AI, I’ve demonstrated different ways in which AI might help. However, it’s equally important to discuss instances where Gen AI may not be the most suitable option. So let’s explore when not to use AI in a way that focuses not on criticising AI, but on understanding our abilities and relationship with Gen AI as we use it.
+          - heading "Understanding types of activities" [level=2] [ref=e47]
+          - paragraph [ref=e48]: Spend more than five minutes on a site like LinkedIn and you’ll likely see a comparison between ‘manual’ and ‘automated’ testing. Some advocates for AI tend to focus on how AI is best used for ‘automated’ testing activities, and less so for ‘manual’ testing. The problem, though, is that this lens on testing hides the fact that not all aspects of ‘automation’ are easily dealt with with AI, and misses opportunities for AI use in the ‘manual’ space.
+          - paragraph [ref=e49]: Instead, when considering opportunities for AI, I draw on Nicholas Carr’s distinction of tasks being either ‘algorithmic’ or ‘heuristic’ based. An approach he lays out in his book ‘The Glass Cage’, which explores how automation impacts individuals and society. Simply put, algorithmic tasks can be explicitly described in a step-by-step manner. So, for example, writing a test case and following it to the letter would be an algorithmic task (Notice how there is no mention of automation here). A heuristic-based task is harder to define and more rooted in our tacit and implicit understanding of problem solving. A good example of this might be identifying a bug based on oracles or coming up with a test idea during an exploratory testing activity.
+          - paragraph [ref=e50]: What makes these distinctions useful is that when we look at a testing activity like test automation, we can break it down to identify both Algorithmic and heuristic-based tasks. An algorithmic task might benefit from the use of AI, for example, to generate code or test data. A heuristic task relies more on our abilities to design our code and determine what assertions are best to use to confirm system behaviour.
+          - heading "Shaping AI use based on our experience" [level=2] [ref=e51]
+          - paragraph [ref=e52]: Does this mean that we should only use AI for algorithmic tasks? It’s not a bad rule to follow, but to be honest, it’s a bit of an oversimplification. This is because Generative AI can also offer support with tasks that lean more towards the heuristic category.
+          - paragraph [ref=e53]: Take, for example, the generation of test cases. We can feed Generative AI a prompt with some requirements and instructions to generate test cases, and it will build them for us. In our prompt, we likely didn’t set out all the rules and procedures to follow to generate test cases, but generate them it will. Some might be useful, some not. To be clear, I’m not saying that Generative AI is, at this time, as capable as a human in solving heuristic-based tasks. But the predictive nature of an LLM can give its responses the illusion that it can solve heuristic-based tasks. We can either provide an AI with algorithmic steps to follow or some loose instructions that require more heuristic-based problem solving, and in both situations, an LLM might deliver a valuable response. With this in mind, we can assume that heuristic-based tasks are also candidates for AI use. But it’s important to keep in mind that whilst we don’t have to explicitly describe each step the AI has to carry out to get a result, we do need to make sure that the output from an AI delivers us an expected response.
+          - paragraph [ref=e54]: "Which begs the question. How do you know if an LLM’s response is correct? When it comes to algorithmic tasks, the explicitly communicated steps themselves can be used to evaluate the outcome. However, with heuristic-based tasks, there may be no explicit information available to determine if an outcome is successful or not. Instead, we have to rely on our own experiences and intuition. With this in mind, let’s return to the question of when we should and shouldn’t use AI by graphing the type of task based on our experience around the task:"
+          - figure "A quadrant that outlines when to use AI, when to maybe use it and when not to. Algorithmic tasks with high experience can use AI, low experience heuristic tasks should not and everything in between is a maybe." [ref=e55]:
+            - generic [ref=e56]: A quadrant that outlines when to use AI, when to maybe use it and when not to. Algorithmic tasks with high experience can use AI, low experience heuristic tasks should not and everything in between is a maybe.
+          - paragraph [ref=e57]: As we can see, the spectrum of when to and when not to use AI is on a scale. If the task we want to use AI for is easy to communicate and we have strong prior experience with it, then it’s a strong candidate. On the other side of the scale, if we know very little about the activity, what good looks like and can’t easily communicate steps, then it’s one to avoid. The other quadrants demonstrate that the boundary between those two is blurry. What I hope this graph demonstrates is that we have a responsibility to understand our relationship in the task we want AI to carry out. It would be unethical to use AI in areas that we can neither describe clearly nor be able to judge competently. These are the areas that we must avoid. Focusing on building up our understanding before utilising AI.
+          - figure "The Area of Effect model version 2, which shows a human's capabilities in the middle, with a spider diagram to represent different skillsets, surrounded by another section demonstrating an AI's ability to extend the human's capabilities further." [ref=e58]:
+            - generic [ref=e59]: The Area of Effect model version 2, which shows a human's capabilities in the middle, with a spider diagram to represent different skillsets, surrounded by another section demonstrating an AI's ability to extend the human's capabilities further.
+          - paragraph [ref=e60]:
+            - text: This is why I created the ‘Area of Effect’ model. Not just to communicate the relationship between individuals and AI and their capabilities and values, but to help us appreciate that we all have our strengths and weaknesses within it. I may feel confident in getting an AI to help suggest complex test design ideas because I have experience with test design and the context I’m working in. However, using it to develop an API that handles authentication, when I have very little experience in that space, would be foolish. Meaning that the question of when not to use AI is going to be different for each of us,
+            - strong [ref=e61]: but we all must work that out for ourselves
+            - text: .
+          - heading "Conclusion" [level=2] [ref=e62]
+          - paragraph [ref=e63]: "When should and shouldn’t we use AI? What I hope this post highlights is that we should avoid using AI in areas where we are either unable to:"
+          - list [ref=e64]:
+            - listitem [ref=e65]: Explicitly describe the steps that need to be carried out during an activity.
+            - listitem [ref=e66]: We are unable to determine if the output from an activity matches our expectations correctly (Regardless of whether we can communicate the activity steps or not).
+          - paragraph [ref=e67]: Successful use with AI comes from a symbiosis of AI capability and human experience. If we begin to defer activities to AI that we are unable to either explicitly define or judge the output of, then we are at risk of being steered off course by misleading or outright hallucinated outputs. Which, at best, will slow us down and, at worst, result in delivering low-quality or potentially dangerous work. In a nutshell, if you don’t know the area that you are using AI for well enough to determine if an output is of low value, then it’s best to steer clear of it until you have more experience in that space. Meaning that we each individually have to reflect on our skills and experiences to better appreciate when AI should and should not be used.
+          - generic [ref=e70]:
+            - heading "Sign up for MW Test Consultancy" [level=2] [ref=e71]
+            - paragraph [ref=e72]: Quality, AI, Software Testing and Development Insights
+            - generic [ref=e74]:
+              - textbox "Your email" [ref=e75]
+              - button "Subscribe" [ref=e76] [cursor=pointer]:
+                - generic [ref=e77]: Subscribe
+            - paragraph [ref=e78]: No spam. Unsubscribe anytime.
+      - iframe [ref=e81]:
+        - img [ref=f8e4]
+    - generic [ref=e83]:
+      - heading "Read more" [level=2] [ref=e84]
+      - generic [ref=e85]:
+        - article [ref=e86]:
+          - link "How Can Gen AI Be Used In Shift Left Activities? Learn how AI can help improve our understanding of features and our ability to slice work into manageable chunks. By Mark Winteringham —02 Apr 2025" [ref=e87] [cursor=pointer]:
+            - /url: /how-can-gen-ai-be-used-in-shift-left-activities/
+            - figure [ref=e88]:
+              - img "How Can Gen AI Be Used In Shift Left Activities?" [ref=e89]
+            - generic [ref=e90]:
+              - heading "How Can Gen AI Be Used In Shift Left Activities?" [level=3] [ref=e91]
+              - paragraph [ref=e92]: Learn how AI can help improve our understanding of features and our ability to slice work into manageable chunks.
+              - generic [ref=e93]:
+                - text: By Mark Winteringham
+                - time [ref=e94]: —02 Apr 2025
+        - article [ref=e95]:
+          - link "The AI Area of Effect Model The AI area of effect model describes the relationship between us and AI. Learn how it has recently been improved. By Mark Winteringham —12 Feb 2025" [ref=e96] [cursor=pointer]:
+            - /url: /the-ai-area-of-effect-model/
+            - figure [ref=e97]:
+              - img "The AI Area of Effect Model" [ref=e98]
+            - generic [ref=e99]:
+              - heading "The AI Area of Effect Model" [level=3] [ref=e100]
+              - paragraph [ref=e101]: The AI area of effect model describes the relationship between us and AI. Learn how it has recently been improved.
+              - generic [ref=e102]:
+                - text: By Mark Winteringham
+                - time [ref=e103]: —12 Feb 2025
+        - article [ref=e104]:
+          - link "Announcing Software Testing with Generative AI Now in Print with a Special 45% Off! lock-1 By Mark Winteringham —04 Nov 2024" [ref=e105] [cursor=pointer]:
+            - /url: /announcing-software-testing-with-generative-ai-now-in-print-with-a-special-45-off/
+            - figure [ref=e106]:
+              - img "Announcing Software Testing with Generative AI" [ref=e107]
+            - generic [ref=e108]:
+              - heading "Announcing Software Testing with Generative AI" [level=3] [ref=e109]
+              - paragraph [ref=e110]: Now in Print with a Special 45% Off!
+              - generic [ref=e111]:
+                - img "lock-1" [ref=e112]
+                - text: By Mark Winteringham
+                - time [ref=e115]: —04 Nov 2024
+        - article [ref=e116]:
+          - link "How do I become competitive with Generate AI as a tester? Mindset and experimentation is the key to success with AI By Mark Winteringham —03 Oct 2024" [ref=e117] [cursor=pointer]:
+            - /url: /how-do-i-become-competitive-with-generate-ai-as-a-tester/
+            - figure [ref=e118]:
+              - img "How do I become competitive with Generate AI as a tester?" [ref=e119]
+            - generic [ref=e120]:
+              - heading "How do I become competitive with Generate AI as a tester?" [level=3] [ref=e121]
+              - paragraph [ref=e122]: Mindset and experimentation is the key to success with AI
+              - generic [ref=e123]:
+                - text: By Mark Winteringham
+                - time [ref=e124]: —03 Oct 2024
+    - contentinfo [ref=e125]:
+      - generic [ref=e126]:
+        - generic [ref=e127]:
+          - generic [ref=e128]: MW Test Consultancy
+          - navigation [ref=e129]:
+            - list [ref=e130]:
+              - listitem [ref=e131]:
+                - link "Sign up" [ref=e132] [cursor=pointer]:
+                  - /url: "#/portal/"
+          - generic [ref=e133]:
+            - text: Powered by
+            - link "Ghost" [ref=e134] [cursor=pointer]:
+              - /url: https://ghost.org/
+        - generic [ref=e135]:
+          - heading "MW Test Consultancy" [level=2] [ref=e136]
+          - paragraph [ref=e137]: Quality, AI, Software Testing and Development Insights
+          - generic [ref=e138]:
+            - textbox "jamie@example.com" [ref=e139]
+            - button "Subscribe" [ref=e140] [cursor=pointer]:
+              - generic [ref=e141]: Subscribe
+            - paragraph
+  - iframe [ref=e142]:
+    - generic [ref=f7e3] [cursor=pointer]:
+      - img [ref=f7e4]
+      - generic [ref=f7e6]: Subscribe
